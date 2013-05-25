@@ -1,10 +1,10 @@
 <?php
 $host = 'localhost';
 $user = 'root';
-$pwd = ''; /* Put your password here */
-//$pwd = 'RtG/()rERtfkfGKLF'; /* Put your password here */
-//$db = 'comparatuescuela';
-$db = 'compara';
+//$pwd = ''; /* Put your password here */
+$pwd = 'RtG/()rERtfkfGKLF'; /* Put your password here */
+$db = 'comparatuescuela';
+//$db = 'compara';
 
 $conn = new mysqli($host,$user,$pwd,$db);
 
